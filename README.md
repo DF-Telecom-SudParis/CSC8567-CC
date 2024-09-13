@@ -61,6 +61,8 @@ Il contient donc :
 
  - Le fichier nginx.conf (configuration du proxy)
 
+**!!! Attention à bien respecter les consignes, notamment bien séparer les applications "public" et "api" dans deux conteneurs différents !!!**
+
 Il faut, dans la même archive zip, ajouter :
 
  - Un schéma de votre base de données

@@ -65,7 +65,8 @@ Il faut, dans la même archive zip, ajouter :
 
  - Un schéma de votre base de données
  - Un schéma de votre infrastructure réseau (réseau(x) virtuel(s) Docker + lien à votre PC)
- - Un fichier README récapitulant la liste des chemins URL de votre site (/public, /api, ...) et contenant les réponses aux questions disponible dans la section "Questions" ci-dessous.
+ - Un fichier README récapitulant la liste des chemins URL de votre site (/public, /api, ...)
+ - Le fichier README doit aussi contenir les réponses aux questions disponible dans la section "Questions" ci-dessous.
 
 Ces deux schémas sont similaires à ceux affichés dans les consignes ci-dessus.
 
@@ -77,18 +78,12 @@ Bon courage !
 
 ## Questions
 
-Format :
-
-- Question ?
-    - Réponse.
-
 ### Fonctionnement de Django
 
 - Vous disposez d'un projet Django dans lequel une application `public` a été créée. Décrivez la suite de requêtes et d'exécutions permettant l'affichage d'une page HTML `index.html` à l'URL global `/` via une application `public`, ne nécessitant pas de contexte de données. Vous décrirez la position exacte dans l'arborescence des répertoires des différents fichiers utiles à cette exécution.
 - Dans quelle(s) section(s) de quel(s) fichier(s) peut-on configurer la base de données que l'on souhaite utiliser pour un projet Django ?
 - Dans quel(s) fichier(s) peut-on configurer le fichier de paramètres que l'on souhaite faire utiliser par le projet Django ? Si plusieurs fichers sont à mentionner, expliquez le rôle de chaque fichier.
 - Nous nous plaçons à la racine de votre projet Django. Quel effet a l'exécution `python manage.py makemigrations` ? Et l'exécution `python manage.py migrate` ? Quel(s) fichier(s) sont mis en oeuvre pendant ces exécutions ?
-
 
 ### Fonctionnement de Docker
 
